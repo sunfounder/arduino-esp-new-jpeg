@@ -1,0 +1,41 @@
+#######################################
+# Syntax Coloring Map for esp_new_jpeg
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+jpeg_dec_handle_t	KEYWORD1
+jpeg_enc_handle_t	KEYWORD1
+jpeg_dec_config_t	KEYWORD1
+jpeg_enc_config_t	KEYWORD1
+jpeg_dec_io_t	KEYWORD1
+jpeg_dec_header_info_t	KEYWORD1
+jpeg_error_t	KEYWORD1
+jpeg_pixel_format_t	KEYWORD1
+jpeg_subsampling_t	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+jpeg_dec_open	KEYWORD2
+jpeg_dec_parse_header	KEYWORD2
+jpeg_dec_process	KEYWORD2
+jpeg_dec_close	KEYWORD2
+jpeg_enc_open	KEYWORD2
+jpeg_enc_process	KEYWORD2
+jpeg_enc_close	KEYWORD2
+jpeg_calloc_align	KEYWORD2
+jpeg_free_align	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+JPEG_ERR_OK	LITERAL1
+JPEG_PIXEL_FORMAT_RGB565_LE	LITERAL1
+JPEG_PIXEL_FORMAT_RGB565_BE	LITERAL1
+JPEG_PIXEL_FORMAT_YCbYCr	LITERAL1
+DEFAULT_JPEG_DEC_CONFIG	LITERAL1
+DEFAULT_JPEG_ENC_CONFIG	LITERAL1
+JPEG_SUBSAMPLE_420	LITERAL1
+JPEG_SUBSAMPLE_422	LITERAL1

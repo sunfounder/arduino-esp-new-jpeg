@@ -1,0 +1,36 @@
+SOURCE / PROVENANCE
+===================
+
+Library name : esp_new_jpeg
+Version      : 1.0.2
+Upstream     : Espressif Systems
+Upstream page: https://components.espressif.com/components/espressif/esp_new_jpeg
+Upstream type: ESP-IDF component (source + prebuilt binaries)
+
+What this repository adds
+-------------------------
+Only Arduino library packaging metadata, documentation and examples:
+  - library.properties
+  - README.md, NOTICE, LICENSE note
+  - examples/
+
+The static libraries below are used UNMODIFIED from the upstream component:
+
+  src/esp32/libesp_new_jpeg.a
+    SHA-256: 42F226866A13580988D9EED2F907DA92955EC40F107F47F64460C72310C65D6F
+  src/esp32s3/libesp_new_jpeg.a
+    SHA-256: 2D08F7ED9E0E265173E2A651BF889190DB8CC172FA2DFF6EF63FFA8C73D24CD8
+
+Headers (src/esp_jpeg_*.h) are also unmodified from the upstream component.
+
+Verification
+------------
+1. Download esp_new_jpeg 1.0.2 from the upstream page above.
+2. Extract the component package.
+3. Run `sha256sum` on the .a files and compare with the values above.
+
+License
+-------
+The upstream esp_new_jpeg component is published by Espressif Systems under the
+Apache License 2.0. See LICENSE (upstream notice) for the authoritative text:
+copy the upstream LICENSE file into this repository before publishing.
