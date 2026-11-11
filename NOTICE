@@ -3,15 +3,17 @@ NOTICE
 
 This Arduino library repackages the Espressif component `esp_new_jpeg` version 1.0.2.
 
-Copyright (c) Espressif Systems (Shanghai) CO LTD
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
+Copyright (c) 2024 ESPRESSIF SYSTEMS (SHANGHAI) CO., LTD
+Licensed under the **Espressif MIT License** (see LICENSE). The license text is the one
+shipped with the upstream component; it grants permission for use on Espressif Systems
+products.
 
-    http://www.apache.org/licenses/LICENSE-2.0
+Prebuilt static library `src/esp32s3/libesp_new_jpeg.a` is distributed UNMODIFIED.
+SHA-256: 2D08F7ED9E0E265173E2A651BF889190DB8CC172FA2DFF6EF63FFA8C73D24CD8
 
-The prebuilt static libraries under src/esp32 and src/esp32s3 are distributed
-UNMODIFIED. Packaging metadata, documentation and examples in this repository are
-provided by SunFounder and are released under the same license.
+Packaging metadata, documentation and examples in this repository are provided by
+SunFounder and distributed under the same Espressif MIT License.
 
-Source: https://components.espressif.com/components/espressif/esp_new_jpeg
+Sources:
+  https://components.espressif.com/components/espressif/esp_new_jpeg
+  https://github.com/mikeysklar/esp_new_jpeg   (trimmed mirror used to verify the binary)

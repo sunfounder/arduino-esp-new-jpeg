@@ -3,34 +3,30 @@ SOURCE / PROVENANCE
 
 Library name : esp_new_jpeg
 Version      : 1.0.2
-Upstream     : Espressif Systems
+Upstream     : Espressif Systems (component esp_new_jpeg)
 Upstream page: https://components.espressif.com/components/espressif/esp_new_jpeg
-Upstream type: ESP-IDF component (source + prebuilt binaries)
+License      : Espressif MIT License (see LICENSE)
 
 What this repository adds
 -------------------------
 Only Arduino library packaging metadata, documentation and examples:
-  - library.properties
-  - README.md, NOTICE, LICENSE note
-  - examples/
+  library.properties, README.md, NOTICE, SOURCE.txt, keywords.txt, examples/
 
-The static libraries below are used UNMODIFIED from the upstream component:
-
-  src/esp32/libesp_new_jpeg.a
-    SHA-256: 42F226866A13580988D9EED2F907DA92955EC40F107F47F64460C72310C65D6F
+Binary in this package
+----------------------
   src/esp32s3/libesp_new_jpeg.a
     SHA-256: 2D08F7ED9E0E265173E2A651BF889190DB8CC172FA2DFF6EF63FFA8C73D24CD8
+    Verified byte-identical to lib/esp32s3/libesp_new_jpeg.a in
+    https://github.com/mikeysklar/esp_new_jpeg (trimmed mirror of Espressif 1.0.2).
 
-Headers (src/esp_jpeg_*.h) are also unmodified from the upstream component.
+Headers (src/esp_jpeg_*.h) are unmodified from the upstream component.
+
+Not included
+-------------
+  Classic ESP32 binary (src/esp32) is NOT shipped in this package: no public
+  reference build was available to verify it byte-for-byte. Only ESP32-S3 is supported.
 
 Verification
 ------------
-1. Download esp_new_jpeg 1.0.2 from the upstream page above.
-2. Extract the component package.
-3. Run `sha256sum` on the .a files and compare with the values above.
-
-License
--------
-The upstream esp_new_jpeg component is published by Espressif Systems under the
-Apache License 2.0. See LICENSE (upstream notice) for the authoritative text:
-copy the upstream LICENSE file into this repository before publishing.
+1. Get the upstream 1.0.2 build (component package or the mirror above).
+2. Run sha256sum on src/esp32s3/libesp_new_jpeg.a and compare with the value above.

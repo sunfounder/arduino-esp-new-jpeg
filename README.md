@@ -15,7 +15,8 @@ Arduino library packaging of the **Espressif `esp_new_jpeg` component v1.0.2** â
 | Version | 1.0.2 |
 | Vendor | Espressif Systems |
 | Source | https://components.espressif.com/components/espressif/esp_new_jpeg |
-| License | Apache License 2.0 (see `LICENSE`) |
+| Mirror (binary verified) | https://github.com/mikeysklar/esp_new_jpeg (trimmed mirror, 1.0.2) |
+| License | **Espressif MIT License** (see `LICENSE`) |
 
 ## What is inside
 
@@ -82,7 +83,8 @@ if (jpeg_enc_open(&ec, &enc) == JPEG_ERR_OK) {
 
 ## Notes and limitations
 
-- Prebuilt binaries are architecture-specific: `esp32` and `esp32s3` only.
+- This package ships the **ESP32-S3** binary only (`src/esp32s3`), verified byte-identical to the upstream 1.0.2 build.
+  Classic ESP32 is not included.
 - Built against the ESP-IDF version shipped with **Arduino ESP32 core 2.0.18**;
   binary compatibility with newer cores is not guaranteed â€” verify before relying on it.
 - ESP32-P4 / ESP32-C6 etc. are not included (upstream component may support them).
