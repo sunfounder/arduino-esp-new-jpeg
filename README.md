@@ -10,6 +10,8 @@ Arduino library **packaged and maintained by SunFounder**, wrapping the **Espres
 > Arduino library metadata, documentation and examples. See `SOURCE.txt` for the
 > upstream link and the SHA-256 of the binaries.
 
+> **Packaging version:** this Arduino package is **1.0.3**; it wraps the upstream esp_new_jpeg component **1.0.2** unchanged. The 1.0.3 packaging revision only fixes library metadata (author/maintainer set to SunFounder) so Arduino Library Manager shows the correct attribution.
+
 ## Authorship
 
 | Part | Author / copyright |
