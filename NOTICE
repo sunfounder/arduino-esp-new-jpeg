@@ -11,8 +11,10 @@ products.
 Prebuilt static library `src/esp32s3/libesp_new_jpeg.a` is distributed UNMODIFIED.
 SHA-256: 2D08F7ED9E0E265173E2A651BF889190DB8CC172FA2DFF6EF63FFA8C73D24CD8
 
-Packaging metadata, documentation and examples in this repository are provided by
-SunFounder and distributed under the same Espressif MIT License.
+Packaging metadata, documentation and examples in this repository are
+Copyright (c) 2026 SunFounder and distributed under the same MIT license.
+SunFounder is the author/maintainer of the Arduino packaging only; the component
+itself remains copyright Espressif Systems.
 
 Sources:
   https://components.espressif.com/components/espressif/esp_new_jpeg

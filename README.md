@@ -1,11 +1,23 @@
-# esp_new_jpeg (Arduino packaging)
+# esp_new_jpeg — SunFounder Arduino packaging
 
-Arduino library packaging of the **Espressif `esp_new_jpeg` component v1.0.2** — JPEG **encoder and decoder** for ESP32 / ESP32-S3.
+Arduino library **packaged and maintained by SunFounder**, wrapping the **Espressif `esp_new_jpeg` component v1.0.2** — JPEG **encoder and decoder** for ESP32 / ESP32-S3.
+
+> The original `esp_new_jpeg` component and its prebuilt binary are copyright **Espressif Systems** and distributed under the Espressif MIT License (see `LICENSE` / `NOTICE`).
+> Arduino library metadata, documentation and examples in this repository are **Copyright (c) 2026 SunFounder** and released under the same MIT license.
 
 > This is a **repackaging** project: the headers and the prebuilt static libraries come
 > **unmodified** from the upstream Espressif component. This repository only adds
 > Arduino library metadata, documentation and examples. See `SOURCE.txt` for the
 > upstream link and the SHA-256 of the binaries.
+
+## Authorship
+
+| Part | Author / copyright |
+| --- | --- |
+| `esp_new_jpeg` component, headers, prebuilt binary | Espressif Systems (MIT) |
+| Arduino packaging: `library.properties`, README, NOTICE, SOURCE.txt, keywords.txt, examples | SunFounder (MIT) |
+
+Espressif's copyright notice is retained because the MIT license requires it; it does **not** imply that this Arduino library is published by Espressif.
 
 ## Upstream
 
